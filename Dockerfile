@@ -4,6 +4,6 @@ ADD . /go/src/app
 
 WORKDIR /go/src/app
 RUN go build
-CMD ["./app"]
+CMD ["./mcp-test"]
 
 EXPOSE 8080
