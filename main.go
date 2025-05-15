@@ -7,7 +7,7 @@ import (
 )
 
 var (
-	port = flag.Int("p", 8084, "Port to listen on")
+	port = flag.Int("p", 8085, "Port to listen on")
 )
 
 func init() {
