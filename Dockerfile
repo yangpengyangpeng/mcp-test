@@ -1,8 +1,8 @@
 FROM golang:latest
 
-ADD . /go/src/mcp-test
+ADD . /go/src/app
 
-WORKDIR /go/src/mcp-test
+WORKDIR /go/src/app
 RUN go build
 CMD ["./mcp-test"]
-EXPOSE 8082
+EXPOSE 8081
